@@ -56,7 +56,8 @@ __[этап].[тип_параметра].[название_параметра]__
 - эффективность обогащения финального концентрата final.output.recovery.
 
 ## Формула расчёта эффективности 
-$$Recovery = \frac{C\times(F - T)}{F\times(C - T)} * 100\%$$
+
+![](http://latex.codecogs.com/gif.latex?\dpi{110}&space;\bg_white&space;Recovery&space;=&space;\frac{C\times(F&space;-&space;T)}{F\times(C&space;-&space;T)}&space;*&space;100\%)
 
 где:
  - C — доля золота в концентрате после флотации/очистки;
@@ -64,8 +65,9 @@ $$Recovery = \frac{C\times(F - T)}{F\times(C - T)} * 100\%$$
  - T — доля золота в отвальных хвостах после флотации/очистки.
  
  ## Формула итоговой метрики
- $$\textrm{Итоговое  sMAPE} = 25\% \times sMAPE(rougher) + 75\% \times sMAPE(final)$$
-
+ ![](http://latex.codecogs.com/gif.latex?%5Cdpi%7B110%7D%20%5Cbg_white%20final-%20sMAPE%20=%2025%5C%25%20%5Ctimes%20sMAPE(rougher)%20&plus;%2075%5C%25%20%5Ctimes%20sMAPE(final)%20)
+ 
+ 
 ## Вывод
 - Итоговая модель построена на алгоритме RandomForest
 - Ошибка на тестовой выборке: 9.15
